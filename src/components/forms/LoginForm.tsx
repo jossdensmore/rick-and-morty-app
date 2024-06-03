@@ -26,7 +26,7 @@ const LoginForm = () => {
 
   // Logout
   const handleLogout = () => {
-    logout();
+    logout()
   }
 
   return (
