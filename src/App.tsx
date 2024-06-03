@@ -18,7 +18,7 @@ function App() {
       <FavoritesProvider>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/rick-and-morty-app" element={<HomePage />} />
           <Route path="/locations" element={<LocationsPage />} />
           <Route path="/favorites" element={<FavoritesPage />} />
           <Route path="/login" element={<LoginPage />} />

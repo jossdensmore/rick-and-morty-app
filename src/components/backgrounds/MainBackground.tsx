@@ -18,7 +18,7 @@ const MainBackground = ({ rickAndMorty, title, backgroundOpacity, form }: MainBa
     >
       {rickAndMorty &&
         <img
-          src="/images/backgrounds/rick-and-morty-background-02.png"
+          src={`${process.env.PUBLIC_URL}/images/backgrounds/rick-and-morty-background-02.png`}
           alt="Rick and Morty Spaceship"
           className="mainBackgroundRickAndMorty"
         />
