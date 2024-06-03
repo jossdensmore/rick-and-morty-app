@@ -1,0 +1,53 @@
+.mainHeader {
+  width: 100%;
+  background-color: #12062be3;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.headerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.headerLogo {
+  width: 145px;
+  height: auto;
+}
+
+.headerNavItems li {
+  margin-left: 1rem;
+}
+
+.headerNavItems li a {
+  color: #FFFFFF96;
+}
+
+.headerNavItems li a:hover {
+  color: #FFF;
+}
+
+.heartRegularItem {
+  width: 20px;
+  height: auto;
+}
+
+@media only screen and (max-width: 1180px) {
+
+  .headerContainer {
+    width: 92.5%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+
+  .headerContainer {
+    justify-content: center;
+  }
+
+  .headerLogo {
+    margin-bottom: 1rem;
+  }
+}

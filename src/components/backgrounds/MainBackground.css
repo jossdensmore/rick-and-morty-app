@@ -1,0 +1,40 @@
+.mainBackground {
+  background-image: url("../../../public/images/backgrounds/rick-and-morty-background-01.png");
+  background-size: cover;
+  min-height: 555px;
+  height: auto;
+  padding: 2rem 0;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainBackgroundOpacity {
+  background-color: #0e052780;
+  background-blend-mode: multiply;
+}
+
+.mainBackgroundRickAndMorty {
+  width: 100%;
+  max-height: 555px;
+}
+
+@media only screen and (max-width: 575px) {
+
+  .mainBackground {
+    min-height: 350px;
+  }
+
+  .mainBackgroundRickAndMorty {
+    max-height: 350px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  .mainBackground {
+    min-height: 400px;
+  }
+}
